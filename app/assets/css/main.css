@@ -3511,7 +3511,7 @@
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 100vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
@@ -3593,7 +3593,7 @@
 					}
 
 				#banner.major {
-					height: auto;
+					height: 100vh;
 					min-height: 0;
 					max-height: none;
 				}
