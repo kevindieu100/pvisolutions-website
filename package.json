@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-immutable-webpack-starter",
-  "version": "2.0.0",
-  "description": "react js + redux + react router + immutable + hot reload + devTools + bootstrap + webpack starter",
+  "name": "pvisolutiions-website",
+  "version": "1.0.0",
+  "description": "PVI Solutions' Company Website",
   "main": "src/index.js",
   "scripts": {
     "flow": "node_modules/.bin/flow",
@@ -23,7 +23,6 @@
     "js",
     "ES6",
     "ES2015",
-    "bootstrap",
     "starter",
     "webpack",
     "webpack2",
@@ -33,12 +32,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MacKentoch/react-redux-immutable-webpack-starter"
+    "url": "git+https://github.com/kevindieu100/pvisolutions-website.git"
   },
   "bugs": {
-    "url": "https://github.com/MacKentoch/react-redux-immutable-webpack-starter/issues"
+    "url": "https://github.com/kevindieu100/pvisolutions-website/issues"
   },
-  "author": "Erwan DATIN (MacKentoch)",
+  "author": "Kevin Dieu",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",

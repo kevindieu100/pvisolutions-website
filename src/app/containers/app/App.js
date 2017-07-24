@@ -5,6 +5,7 @@ import React, {
 }                             from 'react';
 import {
   NavigationBar,
+  Header,
   BackToTop
 }                             from '../../components';
 import navigationModel        from '../../models/navigation.json';
@@ -17,7 +18,7 @@ import { withRouter }         from 'react-router';
 
 class App extends PureComponent {
   state = {
-    navModel : fromJS(navigationModel)
+    navModel : navigationModel
   };
 
   render() {
@@ -26,18 +27,16 @@ class App extends PureComponent {
     return (
       <div id="appContainer">
         <NavigationBar
-          brand={navModel.get('brand')}
+          brand={navModel.brand}
           navModel={navModel}
-          handleLeftNavItemClick={this.handleLeftNavItemClick}
-          handleRightNavItemClick={this.handleRightNavItemClick}
         />
-        <div className="container-fluid">
+        {/*<div className="container-fluid">
           <MainRoutes />
         </div>
         <BackToTop
           minScrollY={40}
           scrollTo={'appContainer'}
-        />
+        />*/}
       </div>
     );
   }

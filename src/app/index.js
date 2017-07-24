@@ -10,12 +10,15 @@ import 'babel-polyfill';
 import 'animate.css';
 import 'jquery';
 import 'font-awesome/css/font-awesome.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './style/main.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import './style/index.scss';
+import './scripts/jquery.scrollex.min.js';
+import './scripts/jquery.scrolly.min.js';
+import './scripts/skel.min.js';
+import './scripts/main.js';
 
-const ELEMENT_TO_BOOTSTRAP  = 'root';
-const BootstrapedElement    = document.getElementById(ELEMENT_TO_BOOTSTRAP);
+const TARGET_ELEMENT  = 'root';
+const targettedElement    = document.getElementById(TARGET_ELEMENT);
 
 injectTpEventPlugin();
 
@@ -24,7 +27,7 @@ const renderApp = RootComponent => {
     <AppContainer>
       <RootComponent />
     </AppContainer>,
-    BootstrapedElement
+    targettedElement
   );
 };
 

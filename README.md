@@ -1,14 +1,7 @@
-React + React-Router + Redux + ImmutableJS + Bootstrap with Hot Reload and redux-devtools STARTER
+PVI Solutions Website 
 ==========
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/MacKentoch/react-redux-bootstrap-webpack-starter) [![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg)](https://github.com/MacKentoch/react-redux-immutable-webpack-starter) [![Coverage Status](https://coveralls.io/repos/github/MacKentoch/react-redux-immutable-webpack-starter/badge.svg)](https://coveralls.io/github/MacKentoch/react-redux-immutable-webpack-starter)
-
-> My React + Redux + Immutable + React-Router + Bootstrap + webpack project starter.
-
-- *webpack is as simple as possible*
-- *ReactJS + Redux + React Router all immutable (all components extend PureComponent).*
-- *`pure front-end` = server independant (use whatever you want as server: NodeJS, Rails, .NET...)*
-
-[Preview of this starter](https://mackentoch.github.io/react-redux-immutable-webpack-starter/#/)
+> React + Redux + React Router Starter Kit: (https://mackentoch.github.io/react-redux-immutable-webpack-starter/#/)
+> Based on: https://html5up.net/forty
 
 ## Detailed Content
 
@@ -21,8 +14,6 @@ React + React-Router + Redux + ImmutableJS + Bootstrap with Hot Reload and redux
 - redux-devtools-extension ([github :link:](https://github.com/zalmoxisus/redux-devtools-extension#redux-devtools-extension))
 - React-Router-Redux (*previously named react-simple-router*)
 - react-router (4.x- [github :link:](https://github.com/reactjs/react-router))
-- Bootstrap (3.x - [github :link:](https://github.com/twbs/bootstrap))
-- React-Bootstrap ([github :link:](https://github.com/react-bootstrap/react-bootstrap))
 - font-awesome ([github :link:](https://github.com/FortAwesome/Font-Awesome))
 - animate.css ([github :link:](https://github.com/daneden/animate.css))
 - classnames ([github :link:](https://github.com/JedWatson/classnames))
