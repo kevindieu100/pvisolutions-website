@@ -3469,7 +3469,7 @@
 				display: none;
 			}
 
-			#banner > .inner header {
+			#banner > .inner header {	
 				width: auto;
 			}
 
@@ -3513,6 +3513,9 @@
 			height: 100vh;
 			min-height: 30em;
 			max-height: 50em;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 
 			#banner.major.alt {

@@ -5,10 +5,12 @@ import React, {
 }                             from 'react';
 import {
   NavigationBar,
+  IntroBanner,
   Header,
   BackToTop
 }                             from '../../components';
 import navigationModel        from '../../models/navigation.json';
+import contentModel           from '../../models/content.json';
 import { bindActionCreators } from 'redux';
 import { connect }            from 'react-redux';
 import * as viewsActions      from '../../redux/modules/views';
@@ -18,17 +20,20 @@ import { withRouter }         from 'react-router';
 
 class App extends PureComponent {
   state = {
-    navModel : navigationModel
+    navModel : navigationModel,
+    contentModel: contentModel
   };
 
   render() {
-    const { navModel } = this.state;
-
+    const { navModel, contentModel } = this.state;
     return (
       <div id="appContainer">
         <NavigationBar
           brand={navModel.brand}
           navModel={navModel}
+        />
+        <IntroBanner
+          introBannerModel={contentModel.homePage.introBannerModel}
         />
         {/*<div className="container-fluid">
           <MainRoutes />

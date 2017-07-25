@@ -1,0 +1,12 @@
+{
+    "homePage": {
+        "introBannerModel": {
+            "header": "PVI Solutions",
+            "subHeader": "Products, Visions, Insights.",
+            "actionButton": {
+                "label": "Who We Are",
+                "link": "/about"
+            }
+        }
+    }
+}
