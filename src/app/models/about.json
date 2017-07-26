@@ -1,0 +1,34 @@
+{
+    "team": [
+        {
+            "name": "Kevin Dieu",
+            "primaryContact": [
+                {
+                    "type": "Phone",
+                    "value": "(669) 300 - 4337",
+                    "icon": "icon alt fa-phone"
+                },
+                {
+                    "type": "Email",
+                    "value": "kdieu@usc.edu",
+                    "icon": "icon alt fa-envelope"
+                }
+            ] 
+        },
+        {
+            "name": "Kenny Nguyen",
+            "primaryContact":[
+                {
+                    "type": "Phone",
+                    "value": "(123) 456 - 7890",
+                    "icon": "icon alt fa-phone"
+                },
+                {
+                    "type": "Email",
+                    "value": "knguyen@usc.edu",
+                    "icon": "icon alt fa-envelope"
+                }
+            ]
+        }
+    ]
+}

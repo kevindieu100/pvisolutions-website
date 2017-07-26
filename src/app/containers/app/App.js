@@ -7,10 +7,12 @@ import {
   NavigationBar,
   IntroBanner,
   Header,
+  ContactSection,
   BackToTop
 }                             from '../../components';
 import navigationModel        from '../../models/navigation.json';
 import contentModel           from '../../models/content.json';
+import aboutModel             from '../../models/about.json';
 import { bindActionCreators } from 'redux';
 import { connect }            from 'react-redux';
 import * as viewsActions      from '../../redux/modules/views';
@@ -21,13 +23,14 @@ import { withRouter }         from 'react-router';
 class App extends PureComponent {
   state = {
     navModel : navigationModel,
-    contentModel: contentModel
+    contentModel: contentModel,
+    aboutModel: aboutModel
   };
 
   render() {
-    const { navModel, contentModel } = this.state;
+    const { navModel, contentModel, aboutModel } = this.state;
     return (
-      <div id="appContainer">
+      <div id="wrapper">
         <NavigationBar
           brand={navModel.brand}
           navModel={navModel}
@@ -42,6 +45,9 @@ class App extends PureComponent {
           minScrollY={40}
           scrollTo={'appContainer'}
         />*/}
+        <ContactSection
+          aboutModel={aboutModel}
+        />
       </div>
     );
   }

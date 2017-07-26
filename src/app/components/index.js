@@ -6,6 +6,7 @@ import BackToTop          from './backToTop/BackToTop';
 import AnimatedView       from './animatedView/AnimatedView';
 import Header             from './header/Header';
 import IntroBanner        from './banners/IntroBanner';
+import ContactSection     from './contact/ContactSection';
 
 export {
   AnimatedView,
@@ -13,5 +14,6 @@ export {
   NavigationBar,
   BackToTop,
   Header,
-  IntroBanner
+  IntroBanner,
+  ContactSection
 };
